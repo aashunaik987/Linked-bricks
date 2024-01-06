@@ -1,0 +1,21 @@
+.reviewbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+#cus{
+    justify-content: end;
+    margin-left: 700px;
+    background-color: #01B8C6;
+}
+.carousel{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: space-between;
+}
+.inner{
+    display: flex;
+   
+}

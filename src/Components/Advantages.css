@@ -1,0 +1,44 @@
+.advantages-container {
+    margin-top: 20px;
+    background-color: #EBFFFD;
+
+  }
+  
+  .advantages-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-column,
+  .right-column {
+    width: calc(50% - 10px); 
+    margin-left: 30px;
+  }
+  
+  .horizontal-card {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color:white;
+    border-radius: 10px;
+
+  }
+  
+  .horizontal-card img {
+    width: 70px; 
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin: 5px;
+  }
+  
+  .card-info {
+    text-align: left;
+  }
+  
+  .card-info span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  

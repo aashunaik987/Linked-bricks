@@ -1,0 +1,35 @@
+.footer{
+    background-color: black;
+    padding: 20px;
+}.div1{
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+
+    
+}
+.div2{
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    
+}
+.icon{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-bottom: 10px;
+    font-size: small;
+    width: 100%;
+    top: 5px;
+
+    left:20px; 
+}

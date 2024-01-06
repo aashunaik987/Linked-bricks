@@ -1,0 +1,38 @@
+.carousel-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    
+    
+  }
+  
+  .carousel-card-content {
+    padding: 40px;
+  }
+  
+  .carousel-img {
+    
+    display: flex;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 6px;
+  }
+  
+  .carousel-item-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    
+  }
+  .desc{
+    margin-left: 6px;
+    font-size: 1.2rem;
+  }
