@@ -4,6 +4,9 @@ import a1 from '../assets/a1.svg';
 import a2 from '../assets/a2.svg';
 import a3 from '../assets/a3.svg';
 import CarouselItem from './CarouselItem';
+import { Carousel } from 'antd';
+
+
 
 const people = [
   {
@@ -57,7 +60,8 @@ function CustomerReview() {
         <div className='inner'>
           {
             people.map((item) => {
-              return <CarouselItem item={item} />;
+
+              return  <CarouselItem item={item} />; 
             })
           }
 

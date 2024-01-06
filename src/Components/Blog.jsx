@@ -19,6 +19,10 @@ const blog = [
     img: bg3,
     houseType: 'The best areas to live in North London',
   },
+  {
+    img: bg2,
+    houseType: 'What do higher interest rates mean for the housing market?',
+  },
 ];
 
 function Carousel() {
