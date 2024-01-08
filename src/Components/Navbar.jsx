@@ -14,7 +14,7 @@ function Navbar() {
     return (
       <>
           <nav>
-              <img src={logo}/>
+              <img className='pic' src={logo}/>
               <div>
                   <ul id='navbar' className={clicked?"#navbar active": "#navbar"} >
                       <li>
